@@ -33,7 +33,7 @@ namespace EdgeChromeSinglePageDownloader
             // send alt+n, enter filename
             WshShell.SendKeys($"%n{filename}");
             Thread.Sleep(20);
-            // send alt+t, page down, page up (to select single mhtml), press enter twice
+            // send alt+t, down arrow, up arrow (to select single mhtml), press enter twice
             WshShell.SendKeys($"%t");
             Thread.Sleep(20);
             WshShell.SendKeys($"{{DOWN}}");
