@@ -8,4 +8,4 @@ The Edge Selenium Webdriver is a NuGet package which allows you to automate Micr
 
 # CodeProject article
 
-(Here)[https://www.codeproject.com/Tips/5368776/How-to-Automate-Saving-Webpages-as-a-Single-MHTML]
+[Here](https://www.codeproject.com/Tips/5368776/How-to-Automate-Saving-Webpages-as-a-Single-MHTML)
