@@ -5,7 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <SourceRevisionId>build_$([System.DateTime]::UtcNow.ToString("yyyy_MM_dd_HH_mm_ss"))</SourceRevisionId>
+    <Authors>Federico Di Marco</Authors>
+    <Description>A tool which downloads and saves one or more webpages in a local folder as a single MHTML file.</Description>
+    <Copyright>$([System.DateTime]::UtcNow.Year)</Copyright>
+    <RepositoryUrl>https://github.com/fededim/BinaryToPowershellScript</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/fededim/BinaryToPowershellScript</PackageProjectUrl>  </PropertyGroup>
 
   <ItemGroup>
     <COMReference Include="IWshRuntimeLibrary">
