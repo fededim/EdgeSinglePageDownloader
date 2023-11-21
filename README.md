@@ -1,4 +1,4 @@
-# EdgeSinglePageDownloader
+# EdgeSinglePageDownloader © 2023 Federico Di Marco
 
 EdgeSinglePageDownloader is a simple console application which downloads a set of webpages and saves them as single .MHTML files in a specified folder using Edge Selenium Webdriver (it should work also on ChromeDriver). It is a simple proof of concept which shows how to implement this feature using the Selenium Webdriver and allows also to download and save a set of webpages in batch.
 
